@@ -12,7 +12,7 @@
       }
 
       .bgimg {
-        background-image: url('summer-background2.png');
+        background-image: url('winter-background3.gif');
         height: 100%;
         background-position: center;
         background-size: cover;
@@ -20,6 +20,7 @@
         color: white;
         font-family: 'Source Code Pro', monospace;
         font-size: 25px;
+        z-index: -1;
       }
 
       .topleft {
@@ -40,6 +41,10 @@
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
+      }
+
+      .topleft, .bottomleft, .middle {
+        z-index: 10;
       }
 
       hr {
