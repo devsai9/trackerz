@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Winter Break 2022</title>
+    <title>----------</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
@@ -60,7 +60,7 @@
         <p>Wednesday June 14th, 2023</p>
       </div>
       <div class="middle">
-        <h1>Summer Break 2023</h1>
+        <h1 id="title">Summer Break 2023</h1>
         <hr>
         <p id="demo" style="font-size:30px"></p>
       </div>
@@ -70,6 +70,8 @@
     </div>
 
     <script>
+      document.title = document.querySelector("#title").innerHTML;
+      
       // Set the date we're counting down to
       var countDownDate = new Date("Jun 14,2023 4:00:00 pm").getTime();
 
