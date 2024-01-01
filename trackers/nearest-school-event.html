@@ -12,7 +12,7 @@
 
       .bgimg {
         /* background: #1c1d25; */
-        background-image: url(winter-background.png);
+        background-image: url(summer-background2.png);
         height: 100%;
         background-position: center;
         background-size: cover;
@@ -57,10 +57,10 @@
 
     <div class="bgimg">
       <div class="topleft">
-        <p>Friday December 22nd, 2023</p>
+        <p>Friday March 22nd, 2024</p>
       </div>
       <div class="middle">
-        <h1 id="title">Winter Break 2023</h1>
+        <h1 id="title">Spring Break 2024</h1>
         <hr>
         <p id="demo" style="font-size:30px"></p>
       </div>
@@ -73,7 +73,7 @@
       document.title = document.querySelector("#title").innerHTML;
       
       // Set the date we're counting down to
-      var countDownDate = new Date("Dec 22,2023 3:00:00 pm").getTime();
+      var countDownDate = new Date("Mar 22,2024 3:00:00 pm").getTime();
 
       // Update the count down every 1 second
       var countdownfunction = setInterval(function() {
@@ -97,7 +97,7 @@
         // If the count down is over, write some text 
         if (distance < 0) {
           clearInterval(countdownfunction);
-          document.getElementById("demo").innerHTML = "Winter Break is on!";
+          document.getElementById("demo").innerHTML = "Spring Break is on!";
         }
       }, 1000);
     </script>
